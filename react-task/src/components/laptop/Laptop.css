@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.laptop-list{
+   border:2px solid lightgrey;
+   width:30%;
+   text-align: center;
+   margin: 10px 0;
+}
+img{
+    display: inline-block;
+    padding: 20px 0;
+}
