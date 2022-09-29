@@ -9,6 +9,7 @@ function Login() {
         setEmail(e.target.value);
         console.log(e);
     }
+    
     const passwdHandler = (eve) => {
         setPasswd(eve.target.value);
         console.log(eve.target.value);

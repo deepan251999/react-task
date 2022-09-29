@@ -10,6 +10,8 @@ function Laptop(props){
         <img src={Img} alt="" width={100}/>
         <li>{props.laptopdata.tittle}</li>
         <li>{props.laptopdata.cost}</li>
+        <li>{props.laptopdata.year}</li>
+        <li>{props.laptopdata.description}</li>
         </div>
     
     );

@@ -2,44 +2,61 @@ import React from 'react';
 // import img from '../image/laptop-4.jpg';
 import './Laptop.css';
 import Laptop from './Laptop'
-
+import NewLaptop from './newLaptop'
 
 function Laptops(){
     const laptop = [
         {
            "tittle" :"DELL",
             "cost"  :"40,000",
+            'year'  :'2016',
+            "description":'',
         },
         {
             "tittle" :"LENOVA",
              "cost"  :"60,000",
+             'year'  :'2018',
+            "description":'',
          },
          {
             "tittle" :"APPLE",
              "cost"  :"1,20,000",
+             'year'  :'2020',
+            "description":'',
          },
          {
             "tittle" :"HP",
              "cost"  :"25,000",
+             'year'  :'2011',
+            "description":'',
          },
          {
             "tittle" :"ACER",
              "cost"  :"63,000",
+             'year'  :'2022',
+            "description":'',
          },
          {
             "tittle" :"DELL",
              "cost"  :"40,000",
+             'year'  :'2021',
+            "description":'',
          }
     ]
     return(
+        <div>
+            <div className="new-laptop-cont">
+                <NewLaptop/>
+            </div>
         <div className="container">
              {
               laptop.map((laptop) => {
                return <Laptop laptopdata={laptop} isLaptop={"deepan"}/>
            })
            
-           }
-        </div>
+        }
+     </div>
+     </div>
 
 
         // <div className="container">
