@@ -27,7 +27,7 @@
     padding: 13px 100px 13px 0;
     margin: auto;
 }
-.login-btn{
+/* .login-btn{
     padding: 15px 40px;
     background: rgb(22, 127, 248);
     color:#fff;
@@ -40,4 +40,4 @@
 .login-btn:hover{
     transform: scale(0.9);
     transition: 0.5s;
-}
+} */

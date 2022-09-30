@@ -14,12 +14,12 @@ function NewLaptop() {
     const inputHandler =(e)=>{
         // console.log(newLaptop);
 
-        setNewLaptop((previousState) =>{
-            return { ...previousState, ...{[e.target.tittle]: e.target.value}}
-        });
-        // setNewLaptop({[e.target.tittle]: e.target.value})
-        // console.log(e.target.tittle, e.target.value);
-        //  console.log(newLaptop);
+        // setNewLaptop((previousState) =>{
+        //     return { ...previousState, ...{[e.target.tittle]: e.target.value}}
+        // });
+        setNewLaptop({[e.target.tittle]: e.target.value})
+        console.log(e.target.tittle, e.target.value);
+         console.log(newLaptop);
     }
     const newLaptopHandler =(e) =>{
         // e.preventDefault();

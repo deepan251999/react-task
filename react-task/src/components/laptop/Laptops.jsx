@@ -45,13 +45,13 @@ function Laptops(){
     ]
     return(
         <div>
-            <div className="new-laptop-cont">
+            {/* <div className="new-laptop-cont">
                 <NewLaptop/>
-            </div>
+            </div> */}
         <div className="container">
              {
               laptop.map((laptop) => {
-               return <Laptop laptopdata={laptop} isLaptop={"deepan"}/>
+               return <Laptop laptopdata={laptop} />
            })
            
         }
