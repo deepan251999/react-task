@@ -22,6 +22,7 @@ function Login(props) {
     const loginHandler = (event) => {
         event.preventDefault();
         console.log(email, passwd);
+        
         if(email && passwd){
             props.isLogin(true);
         }
